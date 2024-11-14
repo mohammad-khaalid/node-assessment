@@ -10,5 +10,10 @@ test('returns the number itself if only one number is provided', () => {
   expect(add("5")).toBe(5);
 });
 
+test('returns the sum of two numbers separated by a comma', () => {
+    expect(add("1,2")).toBe(3);
+  });
+
+ 
   
   
