@@ -5,6 +5,10 @@ test('returns 0 for an empty string', () => {
 });
 
 
-  
+test('returns the number itself if only one number is provided', () => {
+  expect(add("1")).toBe(1);
+  expect(add("5")).toBe(5);
+});
+
   
   
